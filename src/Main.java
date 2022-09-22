@@ -24,6 +24,5 @@ public class Main {
         int[] A = {1,2,3,4,5};
         int[] B = {4,5};
         subArray(A,B);
-
     }
 }
