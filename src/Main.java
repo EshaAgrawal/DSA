@@ -11,11 +11,13 @@ public class Main {
         for(int i=0; i< B.length ; i++){
             for(int j = 0; j< A.length ; j++){
                 if(A[j] == B[i]){
-
+                    break;
                 }
-            }
+                if(j==A.length)
+                    return -1;
+                }
         }
-        return 0;
+        return 1;
     }
 
     public static void main(String[] args) {
